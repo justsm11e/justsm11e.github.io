@@ -7,6 +7,7 @@ body {
 	font-size: 16px;
 	box-sizing: border-box;
 	background-color: #fff;
+	overflow-x: hidden;
 }
 wrapper {
   display: flex;
@@ -28,7 +29,7 @@ nav.navbar {
 	height: 50px;
 	margin: 0;
 	border: 0;
-	background-color: #2E7061;
+	background-color: #2E7061;s
 }
 .navbar-nav li a {
 	background-color: #2E7061;
@@ -120,15 +121,15 @@ i {
 .media-list {
 	margin-bottom: 15px;
 }
+.news a:hover {
+	text-decoration: none;
+}
 .media-list img {
 	width: 100%;
 }
 .line {
 	border-right: 3px solid #2E7061; /* Параметры линии */ 
     padding-right: 10px; /* Расстояние от линии до текста */ 
-}
-.news_sections li{
-	display: inline-block;
 }
 .news_title {
 	font-size: 26px;
@@ -139,6 +140,11 @@ i {
 	font-size: 14px;
 	text-transform: uppercase;
 }
+.slash {
+	color: #000;
+	padding-left: 3px;
+	padding-right: 3px;
+}
 .excl_title {
 	color: #000;
 	font-size: 14px;
@@ -148,13 +154,15 @@ i {
 	font-size: 26px;
 	color: #000;
 }
-.news_mainbutton {
-margin: 0 auto;
+.news_sections a:hover{
+	text-decoration: underline;
+
 }
+
+
 .news_button {
 	width: 180px;	
 	background-color: #2E7061;
-
 }
 .news_button a{
 	color: #fff;
@@ -179,6 +187,9 @@ margin: 0 auto;
 	flex-wrap: wrap;
 	background-color: #fff;
 }
+.stati a:hover{
+	text-decoration: none;
+} 
 .flex_stati {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -292,19 +303,17 @@ section#popular li {
 	color: #000;
 	text-transform: uppercase;
 }
-
 .title_pop_cat {
 	margin-left: 10px;
 	margin-right: 10px;
 	color: #2E7061;
 }
 section#popular a {
-	text-decoration: none;color: #000;
+	color: #000;
 }
 .show_more {
 	color: #2E7061;
 	font-size: 18px;
-
 }
 .flex_pop {
 	display: -webkit-flex;
@@ -313,15 +322,16 @@ section#popular a {
 	display: -o-flex;
 	display: flex;
 	justify-content: space-between;
-	
 	-ms-align-items: center;
-
+}
+.flex_pop a:hover {
+	text-decoration: none;
 }
 .section_pop {
 background-color: #fff;
 padding: 10px;
 	height: 370px;
-	width: 300px;
+	max-width: 300px;
 	margin-bottom: 10px;
 }
 .section_pop img {
@@ -329,7 +339,8 @@ padding: 10px;
 	margin-top: 0;
 	margin-left: 0;
 }
-
+.section_pop a {
+}
 footer {
 	background-color: #212121;
 	padding-top: 10px;
@@ -348,6 +359,9 @@ footer a:hover {
 }
 .footer_soc a {
 	color: #fff;
+}
+.allright {
+	font-size: 11px;
 }
 
 
@@ -390,8 +404,11 @@ footer a:hover {
 	.footer_text {
 		text-align: center;
 	}
-	.footer_soc {
-		font-size: 12px;
+	.soc_ic {
+		display: none;
+	}
+	.footer_soc i {
+		font-size: 26px;
 	}
 }
 @media (max-width: 1030px) {
@@ -408,6 +425,10 @@ footer a:hover {
 	}
 	.title_pop_cat, .show_more, .title_pop {
 		text-align: center;
+	}
+	.texts_title {
+			margin: 0 auto;
+			margin-top: 45px;
 	}
 @media (max-width: 768px) {
 	.carousel {
