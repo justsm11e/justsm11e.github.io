@@ -259,12 +259,15 @@ i {
 .empty_block {
 	height: 48px;
 }
-form {
+.form_class {
 	position: relative;
 	text-align: center;
 	height: 232px;
 	background-color: #fff;
 	border: 1px solid #2E7061;
+}
+.form_block {
+	display: none;
 }
 .subscr_text {
 	color: #000;
@@ -388,9 +391,6 @@ footer a:hover {
 	.social_buttons li {
 		display: inline-block;
 	}
-	.banner {
-		display: none;
-	}
 }
 @media (max-width: 1309px) {
 	 .flex_pop {
@@ -398,6 +398,16 @@ footer a:hover {
 	}
 	.section_pop {
 		flex-basis: 50%;
+	}
+	.form_block {
+		display: block;
+		width: 80%;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.banner {
+		display: none;
 	}
 .news_section {
 	max-width: 45%;
