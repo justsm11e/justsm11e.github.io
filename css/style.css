@@ -202,8 +202,9 @@ i {
 .news_section {
 	background-color: #fff;
 	height: 400px;
-	width: 300px;
+	max-width: 300px;
 	margin-bottom: 5px;
+
 }
 .news_section img {
 	width: 100%;
@@ -390,17 +391,17 @@ footer a:hover {
 	.banner {
 		display: none;
 	}
-	.carousel {
-		margin: 0 auto;
-	}
 }
 @media (max-width: 1309px) {
-	.flex_stati, .flex_pop {
+	 .flex_pop {
 		justify-content: center;
 	}
 	.section_pop {
 		flex-basis: 50%;
 	}
+.news_section {
+	max-width: 45%;
+}
 	.footer_text {
 		text-align: center;
 	}
@@ -418,7 +419,7 @@ footer a:hover {
 }
 @media (max-width: 992px) {
 	.news_section {
-		margin: 20px;
+		margin: 5px;
 	}
 	.line {
 		border-right: 1px solid #fff;
