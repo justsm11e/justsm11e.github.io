@@ -24,16 +24,16 @@ footer {
 /*Шапка, навигация*/
 
 .navbar-collapse {
-	background: #2E7061;
+	background: #384952;
 }
 nav.navbar {
 	height: 50px;
 	margin: 0;
 	border: 0;
-	background-color: #2E7061;s
+	background-color: #384952;
 }
 .navbar-nav li a {
-	background-color: #2E7061;
+	background-color: #384952;
 }
 .sr-only {
 	background-color: #000;
@@ -84,7 +84,7 @@ h2 {
 	font-family: 'Roboto', sans-serif;
 }
 .btn-success {
-	background-color: #2E7061;
+	background-color: #384952;
 	opacity: 0.8;
 	width: 110px;
 	height: 37px;
@@ -129,7 +129,7 @@ i {
 	width: 100%;
 }
 .line {
-	border-right: 3px solid #2E7061; /* Параметры линии */ 
+	border-right: 3px solid #384952; /* Параметры линии */ 
     padding-right: 10px; /* Расстояние от линии до текста */ 
 }
 .news_title {
@@ -137,7 +137,7 @@ i {
 	color: #000;
 }
 .all_title {
-	color: #2E7061;
+	color: #384952;
 	font-size: 14px;
 	text-transform: uppercase;
 }
@@ -163,7 +163,7 @@ i {
 
 .news_button {
 	width: 180px;	
-	background-color: #2E7061;
+	background-color: #384952;
 	margin-top: 20px;
 }
 .news_button a{
@@ -230,14 +230,14 @@ i {
 }
 .post_category {
 	font-size: 13;
-	color: #2E7061;
+	color: #384952;
 	text-transform: uppercase;
 }
 .news_section a:hover {
 	text-decoration: none;
 }
 .stati_button {
-	background-color: #2E7061;
+	background-color: #384952;
 	width: 110px;
 	margin-top: 20px;
 }
@@ -263,7 +263,7 @@ i {
 	text-align: center;
 	height: 232px;
 	background-color: #fff;
-	border: 1px solid #2E7061;
+	border: 1px solid #384952;
 }
 .form_block {
 	display: none;
@@ -289,7 +289,7 @@ i {
 	left: 0;
 	color: #fff;
 	text-transform: uppercase;
-	background-color: #2E7061;
+	background-color: #384952;
 	border: none;
 }
 .subscr_button:hover {
@@ -309,13 +309,13 @@ section#popular li {
 .title_pop_cat {
 	margin-left: 10px;
 	margin-right: 10px;
-	color: #2E7061;
+	color: #384952;
 }
 section#popular a {
 	color: #000;
 }
 .show_more {
-	color: #2E7061;
+	color: #384952;
 	font-size: 18px;
 }
 .flex_pop {
@@ -453,7 +453,7 @@ footer a:hover {
 	}
 	header .navbar li:hover {
 		text-decoration: none;
-		background-color: #2E7061;
+		background-color: #384952;
 	}
 }
 
