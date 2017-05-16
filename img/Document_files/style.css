@@ -1,0 +1,103 @@
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	box-sizing: border-box;
+	background-color: #fff;
+	overflow-x: hidden;
+}
+wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.content {
+  flex: 1 0 auto;
+}
+footer {
+  flex: 0 0 auto;
+  margin-top: 20px;
+}
+/*Шапка, навигация*/
+
+.navbar-collapse {
+	background: #426849;
+}
+nav.navbar {
+	height: 30px;
+	margin: 0;
+	border: 0;
+	background-color: #426849;
+}
+.navbar-nav li a {
+	background-color: #426849;
+}
+.sr-only {
+	background-color: #000;
+}
+.navbar-toggle {
+	background-color: #fff;
+}
+
+.navbar-brand {
+	font-size: 20px;
+	text-transform: uppercase;
+		transition: all 1s ease;
+}
+.logo_part1 {
+	color: #fff;
+}
+.logo_part2 {
+	color: #57A735;
+}
+header#id_header a{
+	color: #fff;
+}
+
+/*Главное изображение, Заголовок, Социальные кнопки*/
+
+.main_screen {
+	height: 738px;
+	background-image: url(../img/4444.jpg);
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-bottom: 30px;
+	margin-top: 50px;
+}
+.bg_but {
+}
+
+
+/*Главная секция: Новости, статьи, подписка, баннер, слайдер*/;
+
+footer {
+	background-color: #212121;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #929292;
+	font-size: 13px;
+}
+footer a {
+	color: #929292;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+footer a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+.footer_soc a {
+	color: #fff;
+}
+.allright {
+	font-size: 11px;
+}
+
+
+@media (max-width: @screen-xs-max) {
+
+}
