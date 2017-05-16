@@ -113,6 +113,7 @@ header#id_header a{
 	width: 100%;
 	position: relative;
 	margin-top: 30px;
+	margin-bottom: 72px;
 	border-top: 44px solid #426849;
 	border-bottom: 1px solid #426849;
 		border-left: 1px solid #426849;
@@ -147,6 +148,36 @@ header#id_header a{
 	font-size: 40px;
 margin-top: 18%;
 color: #426849;
+}
+.usluga .numb {
+	font-size: 35px;
+	display: inline-block;
+	color: #426849;
+}
+.usluga p {
+	display: inline-block;
+	font-size: 18px;
+}
+.usluga .usl_descr {
+	display: block;
+	margin-left: 24px;
+	color: #5D6870;
+}
+.usl_img {
+height: 142px;
+max-width: 555px;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.first_img {
+	background-image: url(../img/1.jpg);
+}
+.second_img {
+	background-image: url(../img/2.jpg);
+}
+.third_img {
+	background-image: url(../img/bg.jpg);
 }
 
 
