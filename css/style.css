@@ -18,8 +18,17 @@ wrapper {
   flex: 1 0 auto;
 }
 footer {
+	height: 60px;
+	padding: 25px;
   flex: 0 0 auto;
   margin-top: 20px;
+  background-color: #343436;
+  color: #fff;
+  font-size: 14px;
+  overflow: hidden;
+}
+footer a {
+	margin-left: 4px;
 }
 /*Шапка, навигация*/
 
@@ -71,13 +80,17 @@ header#id_header a{
 .bg_but {
 	width: 310px;
 	height: 52px;
-	background-color: #000;
+	background-color: #4EB543;
 	margin-top: 440px;
-	opacity: 0.7;
-	border: 1px solid #fff;
 	font-size: 25px;
 	color: #fff;
+	transition: 0.5s ease;
 }
+.bg_but:hover {
+	color: #4EB543;
+	background: #fff;
+}
+
 .descr {
 	padding-top: 64px;
 	padding-bottom: 72px;
@@ -89,6 +102,7 @@ header#id_header a{
 }
 .preim h2 {
 	display: inline-block;
+	font-size: 28px;
 	position: relative;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -183,10 +197,10 @@ max-width: 555px;
 }
 
 .containerform{
- width:450px;
- height: 400px;
+ max-width:450px;
+height: 420px;
  background-color: #426849;
- margin: 72px auto 0 auto;
+ margin: 58px auto 60px auto;
  text-align: center;
  box-shadow: 0 -5px 0 #4EA735;
 }   
@@ -198,49 +212,129 @@ max-width: 555px;
  border-radius: 4px;
  padding-left: 10px;
 }
+.sd {
+	padding: 0 20px 0 20px;
+}
 .containerform img{
  width:120px;
  height:120px;
  margin: -60px 0 30px 0;
  border: 5px solid #426849;
  border-radius: 50%;
- box-shadow: 0 -3px 0 #4EA735;
 }   
 .containerform input[type="submit"] {
 	width: 200px;
 	height: 30px;
 	background-color: #4EB543;
-	margin-top: 10px;
+	margin-top: 20px;
 	color: #fff;
 	border: none;
 }
 
 /*Главная секция: Новости, статьи, подписка, баннер, слайдер*/;
+/* Carousel */
 
-footer {
-	background-color: #212121;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	color: #929292;
-	font-size: 13px;
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+    /* Control buttons  */
+    /* Previous button  */
+    /* Next button  */
+    /* Changes the position of the indicators */
+    /* Changes the color of the indicators */
 }
-footer a {
-	color: #929292;
-	margin-left: 6px;
-	margin-right: 6px;
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
 }
-footer a:hover {
-	text-decoration: none;
-	color: #fff;
+#quote-carousel .carousel-control.left {
+    left: -60px;
 }
-.footer_soc a {
-	color: #fff;
+#quote-carousel .carousel-control.right {
+    right: -60px;
 }
-.allright {
-	font-size: 11px;
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    
+    margin-right: -19px;
 }
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    border: 4px solid #CCC;
+    border-radius: 50px;
+    opacity: 0.5;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+    width: 128px;
+    height: 128px;
+    border-radius: 100px;
+    border-color: #426849;
+    opacity: 1;
+    overflow: hidden;
+}
+.carousel-inner {
+    min-height: 300px;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+    color: #426849;
+}
+.carousel small {
+	font-size: 18px;
+	color: #426849;
+}
+.carousel p {
+	font-size: 17px;
+	font-family: italic;
+	display: block;
+}
+
+
+
+
 
 
 @media (max-width: 1309px) {
 .circle {display: none;}
+}
+@media (max-width: 991px) {
+.descr {
+	padding-top: 14px;
+	padding-bottom: 12px;
+}
+.innerblock {
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+.third_img {
+	margin-bottom: 15px;
+}
+.containerform{
+	margin-bottom: 15px;
+}
+.bg_but {
+	margin-top: 30vh;
+}
+@media (max-width: 490px) {
+#quote-carousel .carousel-indicators .active {
+	width: 50px;
+    height: 50px;
+	}
 }
