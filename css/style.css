@@ -71,7 +71,7 @@ header#id_header a{
 
 .main_screen {
 	height: 738px;
-	background-image: url(../img/woman.jpg);
+	background-image: url(../img/wp.jpg);
 	background-position: center center;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -81,16 +81,18 @@ header#id_header a{
 .bg_but {
 	width: 310px;
 	height: 52px;
-	background-color: #4EB543;
 	margin-top: 440px;
+	background-color: rgba(255,255,255,0);
+	border: 1px solid #fff;
 	font-size: 25px;
 	color: #fff;
 	transition: 0.5s ease;
 }
 .bg_but:hover {
-	color: #4EB543;
-	background: #fff;
+	background-color: #fff;
+	color: #000;
 }
+
 
 .descr {
 	padding-top: 64px;
@@ -200,7 +202,7 @@ max-width: 555px;
 .containerform{
  max-width:450px;
 height: 420px;
- background-color: #426849;
+border: 1px solid #4EA735;
  margin: 58px auto 60px auto;
  text-align: center;
  box-shadow: 0 -5px 0 #4EA735;
