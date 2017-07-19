@@ -19,21 +19,20 @@ wrapper {
 }
 footer {
   flex: 0 0 auto;
-  margin-top: 20px;
 }
 /*Шапка, навигация*/
 
 .navbar-collapse {
-	background: #384952;
+	background: #2E7061;
 }
 nav.navbar {
 	height: 50px;
 	margin: 0;
 	border: 0;
-	background-color: #384952;
+	background-color: #2E7061;s
 }
 .navbar-nav li a {
-	background-color: #384952;
+	background-color: #2E7061;
 }
 .sr-only {
 	background-color: #000;
@@ -84,7 +83,7 @@ h2 {
 	font-family: 'Roboto', sans-serif;
 }
 .btn-success {
-	background-color: #384952;
+	background-color: #2E7061;
 	opacity: 0.8;
 	width: 110px;
 	height: 37px;
@@ -129,7 +128,7 @@ i {
 	width: 100%;
 }
 .line {
-	border-right: 3px solid #384952; /* Параметры линии */ 
+	border-right: 3px solid #2E7061; /* Параметры линии */ 
     padding-right: 10px; /* Расстояние от линии до текста */ 
 }
 .news_title {
@@ -137,7 +136,7 @@ i {
 	color: #000;
 }
 .all_title {
-	color: #384952;
+	color: #2E7061;
 	font-size: 14px;
 	text-transform: uppercase;
 }
@@ -163,8 +162,7 @@ i {
 
 .news_button {
 	width: 180px;	
-	background-color: #384952;
-	margin-top: 20px;
+	background-color: #2E7061;
 }
 .news_button a{
 	color: #fff;
@@ -201,8 +199,6 @@ i {
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
-.flex_stati a {
-}
 .news_section {
 	background-color: #fff;
 	height: 400px;
@@ -230,16 +226,15 @@ i {
 }
 .post_category {
 	font-size: 13;
-	color: #384952;
+	color: #2E7061;
 	text-transform: uppercase;
 }
 .news_section a:hover {
 	text-decoration: none;
 }
 .stati_button {
-	background-color: #384952;
+	background-color: #2E7061;
 	width: 110px;
-	margin-top: 20px;
 }
 .stati_all_button {
 	margin: 0 auto;
@@ -252,6 +247,12 @@ i {
 	background-color: #286154;
 }
 
+.carousel {
+	margin-top: 50px;
+}
+
+
+
 
 
 
@@ -263,7 +264,7 @@ i {
 	text-align: center;
 	height: 232px;
 	background-color: #fff;
-	border: 1px solid #384952;
+	border: 1px solid #2E7061;
 }
 .form_block {
 	display: none;
@@ -289,7 +290,7 @@ i {
 	left: 0;
 	color: #fff;
 	text-transform: uppercase;
-	background-color: #384952;
+	background-color: #2E7061;
 	border: none;
 }
 .subscr_button:hover {
@@ -309,13 +310,13 @@ section#popular li {
 .title_pop_cat {
 	margin-left: 10px;
 	margin-right: 10px;
-	color: #384952;
+	color: #2E7061;
 }
 section#popular a {
 	color: #000;
 }
 .show_more {
-	color: #384952;
+	color: #2E7061;
 	font-size: 18px;
 }
 .flex_pop {
@@ -400,8 +401,8 @@ footer a:hover {
 	}
 	.form_block {
 		display: block;
-		width: 60%;
-		margin-top: 5px;
+		width: 80%;
+		margin-top: 10px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -410,7 +411,6 @@ footer a:hover {
 	}
 .news_section {
 	max-width: 45%;
-	height: auto;
 }
 	.footer_text {
 		text-align: center;
@@ -453,7 +453,7 @@ footer a:hover {
 	}
 	header .navbar li:hover {
 		text-decoration: none;
-		background-color: #384952;
+		background-color: #2E7061;
 	}
 }
 
